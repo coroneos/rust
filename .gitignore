@@ -1,2 +1,2 @@
-.exe
-.pdb
+/target
+**/*.rs.bk
