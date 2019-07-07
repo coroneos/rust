@@ -280,3 +280,5 @@ println!("{}, {}, and {}", r1, r2, r3);
 ```
 
 We also cannot have a mutable reference while we have an immutable one. Users of an immutable reference don’t expect the values to suddenly change out from under them! However, multiple immutable references are okay because no one who is just reading the data has the ability to affect anyone else’s reading of the data.
+
+## The Slice Type
